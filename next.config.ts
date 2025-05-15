@@ -1,8 +1,7 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
-  reactStrictMode: true,
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  // เพิ่ม option อื่น ๆ ของคุณได้ที่นี่
 };
 
-export default nextConfig;
+module.exports = nextConfig;
